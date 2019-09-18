@@ -1,1 +1,29 @@
-  
+main div#art{
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 5px solid black;
+
+}
+
+main div.row{
+    display: table-row;
+}
+
+main div.pixel{
+    display: table-cell;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+main div.pen{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+img{
+    padding-top: 250px;
+}
